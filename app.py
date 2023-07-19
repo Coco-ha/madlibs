@@ -10,4 +10,6 @@ debug = DebugToolbarExtension(app)
 
 @app.get("/")
 def homepage():
-    noun = request.args["noun"]
+    word = request.args['word']
+    # noun = request.args["noun"]
+    
